@@ -73,7 +73,7 @@ function Layout() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/reactapp"> 
       <Layout />
     </Router>
   );
