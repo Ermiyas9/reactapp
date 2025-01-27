@@ -1,0 +1,102 @@
+
+/* css file for project page */
+
+
+/*CSS file for projects Page only*/
+
+
+.projects {
+    font-family: 'Arial', monospace;
+    background-color: #A5F5DA;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  
+  .welcome-text, .progress-text {
+    font-family: 'Arial', monospace;
+    color: #c31c1c;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  .profile-pic-container {
+    margin: 30px 0;
+  }
+  
+  .profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+  }
+  
+  .project-box {
+    background-color: #A5F5DA;
+    border: 3px solid #FA5252;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .project-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .project-title {
+    font-size: 20px;
+    color: #2a9d8f;
+    margin: 10px 0;
+  }
+  
+  .tech-stack {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
+  .links{
+    font-size: 14px;
+    color: #16b980;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .coding-icon {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .progress-text p {
+    margin: 0;
+  }
+  
+  .centered-project-box {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
