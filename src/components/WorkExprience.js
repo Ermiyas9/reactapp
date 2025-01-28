@@ -1,6 +1,6 @@
 // WorkExprience.js
 import React from 'react';
-import './WorkExperience.css';
+import './WorkExprience.css';
 import { Link } from 'react-router-dom';
 import HeaderComponents from './Header';
 import FooterComponents from './Footer';
