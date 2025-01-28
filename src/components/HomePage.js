@@ -17,14 +17,15 @@ import SocialMediaIconsDisplay from './socialMediaDisplay';
 
 // this import will be for animated stuff and animate library
 import "animate.css/animate.min.css"; 
-import { AnimatedOnScroll } from 'react-animated-css-onscroll';
+//import { AnimatedOnScroll } from 'react-animated-css-onscroll';
 import '../App.css';
 import "./HobbiesPage.css";
 // import { AlignHorizontalCenter } from '@mui/icons-material';
 
 function HomePage() {
   // ScrollDownAnimation function defined within HomePage, this will be called when I want the scroll down letter to be displayed 
-  const ScrollDownAnimation = () => {
+ 
+  /* const ScrollDownAnimation = () => {
     // Split the phrase into individual letters
     const letters = "|||||||||||||||||".split("");
 
@@ -56,6 +57,7 @@ function HomePage() {
       </span>
     );
   };
+  */
 
   return (
     <div className="app-container">
@@ -162,8 +164,7 @@ function HomePage() {
             borderRadius: '50%',
             marginRight: '25px',
             marginLeft: '550px',
-            marginTop: '25px',
-            marginRight: '500px'
+            marginTop: '25px'
           }}
         />
 
