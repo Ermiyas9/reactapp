@@ -9,6 +9,8 @@ import contentImage from '../images/contentImage.jpg';
 import logoIcon from '../images/homePage/logoIcon.png';
 import hireMe from '../images/homePage/hireMeIcon.png';
 import bankTellerImage from '../images/homePage/bankAndTeller.png';
+import askingForResume from '../images/homePage/bankAndTeller.png';
+
 
 
 import outlookImageIcon from '../images/homePage/outlookIcon.png';
@@ -169,16 +171,62 @@ function HomePage() {
           SCROLL
         </p>
 
+
         <p> Feel free to explore my achievements and access my resume to see how my skills align with your goals!</p>
+
         <img 
         
-        src={bankTellerImage } 
+        src={askingForResume} 
         alt="Content"  
         className="contentImage"
         style={{ width: '400px',height: '400px',borderRadius: '50%',marginRight: '25px',marginLeft: '5px',marginTop: '25px'
 
         }}
       />
+
+           {/* Open the PDF in a new tab instead of downloading */}
+           <a href={`${process.env.PUBLIC_URL}/ErmiyasResume.pdf`} target="_blank" rel="noopener noreferrer">
+            <p
+            style={{
+                display: 'inline-block',
+                fontSize: '35px',
+                color: 'blue',
+                fontWeight: 'bold',
+                fontFamily: "'Arial', monospace",
+                boxShadow: '1px 5px 5px -3px green',
+                textDecoration: 'none',
+                padding: '10px 20px',
+                marginBottom: '20px',
+                //backgroundColor: '#C6B1F3',
+                borderRadius: '5px',
+                cursor: 'pointer',
+            }}
+            >
+            View My Resume
+            </p>
+        </a>
+
+        <a href={`${process.env.PUBLIC_URL}/StudentAchievement.pdf`} target="_blank" rel="noopener noreferrer">
+            <p
+            style={{
+                display: 'inline-block',
+                fontSize: '35px',
+                color: 'blue',
+                fontWeight: 'bold',
+                fontFamily: "'Arial', monospace",
+                boxShadow: '1px 5px 5px -3px green',
+                textDecoration: 'none',
+                padding: '10px 20px',
+                marginBottom: '20px',
+                backgroundColor: '#C6B1F3',
+                borderRadius: '5px',
+                cursor: 'pointer',
+            }}
+            >
+            View My Achievements
+            </p>
+        </a>
+        
 
 
       {/* calling the function to display the animated scroll letters n */}
