@@ -6,6 +6,9 @@
     padding: 20px;
     text-align: center;
 }
+.app-container{
+    margin-Right: '160px'
+}
 
 .intro-section {
     margin-bottom: 40px;
