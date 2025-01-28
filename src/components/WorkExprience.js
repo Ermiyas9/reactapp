@@ -188,7 +188,7 @@ function WorkExpriencePage() {
         }}
         >
         {/* Open the PDF in a new tab instead of downloading */}
-        <a href="/ErmiyasResume.pdf" target="_blank" rel="noopener noreferrer">
+        <a href={`${process.env.PUBLIC_URL}/ErmiyasResume.pdf`} target="_blank" rel="noopener noreferrer">
             <p
             style={{
                 display: 'inline-block',
@@ -209,7 +209,7 @@ function WorkExpriencePage() {
             </p>
         </a>
 
-        <a href="/StudentAchievement.pdf" target="_blank" rel="noopener noreferrer">
+        <a href={`${process.env.PUBLIC_URL}/StudentAchievement.pdf`} target="_blank" rel="noopener noreferrer">
             <p
             style={{
                 display: 'inline-block',
