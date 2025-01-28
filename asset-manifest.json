@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactapp/static/css/main.f4e6ac2f.css",
-    "main.js": "/reactapp/static/js/main.d8d07431.js",
+    "main.css": "/reactapp/static/css/main.360f424e.css",
+    "main.js": "/reactapp/static/js/main.714db6d0.js",
     "static/media/food.png": "/reactapp/static/media/food.7e22490caecac8d58285.png",
     "static/media/ermiAndAaron2.png": "/reactapp/static/media/ermiAndAaron2.9122891720c9ab9ba0e1.png",
     "static/media/aaronChill.mp4": "/reactapp/static/media/aaronChill.ec5d626b0b27a2bce689.mp4",
@@ -19,14 +19,15 @@
     "static/media/subBuzz.png": "/reactapp/static/media/subBuzz.673ebb7a199a74c01acd.png",
     "static/media/bankAndTeller.png": "/reactapp/static/media/bankAndTeller.de3cad2adf222a332bf4.png",
     "static/media/contentImage.jpg": "/reactapp/static/media/contentImage.5e0c8d709f74227dd17c.jpg",
+    "static/media/askingForResume.png": "/reactapp/static/media/askingForResume.444c3c0f0914291a1c3e.png",
     "static/media/youngBlackMan.png": "/reactapp/static/media/youngBlackMan.87c513bd618c3889e28b.png",
     "static/media/simpson.png": "/reactapp/static/media/simpson.e8845593b48aa90bdfb2.png",
     "index.html": "/reactapp/index.html",
-    "main.f4e6ac2f.css.map": "/reactapp/static/css/main.f4e6ac2f.css.map",
-    "main.d8d07431.js.map": "/reactapp/static/js/main.d8d07431.js.map"
+    "main.360f424e.css.map": "/reactapp/static/css/main.360f424e.css.map",
+    "main.714db6d0.js.map": "/reactapp/static/js/main.714db6d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4e6ac2f.css",
-    "static/js/main.d8d07431.js"
+    "static/css/main.360f424e.css",
+    "static/js/main.714db6d0.js"
   ]
 }
