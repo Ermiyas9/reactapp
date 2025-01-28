@@ -235,7 +235,7 @@ function HomePage() {
         />
       </div>
 
-      <div style={{ marginRight: '80px', fontWeight: "Bold", color: "Black", fontSize: "20px", marginTop: '15px', marginLeft: '50px', fontFamily: "Arial, monospace" }}>
+      <div style={{ marginRight: '80px', color: "Black", fontSize: "20px", marginTop: '15px', marginLeft: '50px', fontFamily: "Arial, monospace" }}>
         <p><h1>About Wealthy Wave Web Bank Application</h1></p>
         <p>Creating a bank web application was one of my most challenging but rewarding school projects.</p>
         <p>As a second-year Software Engineering student, our Software Quality professor assigned us a project where we could design our web application,</p> 
@@ -261,7 +261,7 @@ function HomePage() {
       </div>
 
 
-      <div style={{ marginRight: '80px', fontWeight: "Bold", color: "Black", fontSize: "20px", marginTop: '15px', marginLeft: '50px', fontFamily: "Arial, monospace" }}>
+      <div style={{ marginRight: '80px', color: "Black", fontSize: "20px", marginTop: '15px', marginLeft: '50px', fontFamily: "Arial, monospace" }}>
 
         <p><h1>Recent Project...! Under PROCESS</h1></p>
         <p>While working at Conestoga College's Doon campus for my first co-op term, I developed an idea for improving the kiosk that loans laptops to students </p> 
