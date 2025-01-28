@@ -141,7 +141,7 @@ function HomePage() {
                   <p>My love for computers and programming has only grown over the years, </p>
                   <p> leading me to pursue my dream in software development field. </p>
                   <p>I truly enjoy writing code, designing front-end interfaces, </p>
-                  <p>and managing back-end systems—all while finding new ways to build applications that make life easier.</p>
+                  <p>and managing back-end systems.....all while finding new ways to build applications that make life easier.</p>
                   <p>I could spend hours solving bugs or refining web designs because it’s what I love to do. </p>
                   <p><span>Ready to collaborate? </span>
                     <a

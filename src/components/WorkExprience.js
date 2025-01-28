@@ -1,5 +1,6 @@
 // WorkExprience.js
 import React from 'react';
+import './WorkExperience.css';
 import { Link } from 'react-router-dom';
 import HeaderComponents from './Header';
 import FooterComponents from './Footer';
@@ -200,7 +201,7 @@ function WorkExpriencePage() {
                 textDecoration: 'none',
                 padding: '10px 20px',
                 marginBottom: '20px',
-                backgroundColor: '#C6B1F3',
+                //backgroundColor: '#C6B1F3',
                 borderRadius: '5px',
                 cursor: 'pointer',
             }}
