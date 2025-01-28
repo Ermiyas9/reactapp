@@ -158,9 +158,28 @@ function HomePage() {
                   </p>
                 </span>
               </div>
+
+              {/* Here i need to add a picture with something that asks if they would like to see my resume and achievement paper 
+                create a dive that contains scroll the iamge and the word */}
+
+
+
+            
         <p style={{ fontweight:"Bold",color: "Black",fontSize: "30px",marginTop: '25px',marginLeft: '450px',fontFamily: "Arial, monospace"}}>
           SCROLL
         </p>
+
+        <p> Feel free to explore my achievements and access my resume to see how my skills align with your goals!</p>
+        <img 
+        
+        src={bankTellerImage } 
+        alt="Content"  
+        className="contentImage"
+        style={{ width: '400px',height: '400px',borderRadius: '50%',marginRight: '25px',marginLeft: '5px',marginTop: '25px'
+
+        }}
+      />
+
 
       {/* calling the function to display the animated scroll letters n */}
       <ScrollDownAnimation /> 
