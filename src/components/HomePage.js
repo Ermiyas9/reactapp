@@ -192,7 +192,7 @@ function HomePage() {
 
       <div style={{paddingLeft: '250px',fontFamily: "'Arial', monospace ",fontWeight:'bolder',fontSize:'35px' }}>
         <p><a href='https://github.com/srose0040/WealthWave'style={{boxShadow:" 1px 5px 5px -3px #F71B9D",textDecoration: 'none'}}> Git Hub Repo </a></p>
-        <p><a href='https://wealthywave.Azurewebsites.net'style={{ boxShadow:" 1px 5px 5px -3px #F71B9D",textDecoration: 'none',}}>Wealthy Wave Bank </a></p>
+        <p><a href='https://wealthwave.azurewebsites.net/'style={{ boxShadow:" 1px 5px 5px -3px #F71B9D",textDecoration: 'none',}}>Wealthy Wave Bank </a></p>
         <p><Link to="/Projects" style={{ boxShadow:" 1px 5px 5px -3px #F71B9D",textDecoration: 'none',}}>More Of My Projects </Link></p>
       </div>
 
@@ -219,7 +219,7 @@ function HomePage() {
 
       <div style={{paddingTop: '75px',paddingBottom: '75px',paddingLeft: '250px',fontFamily: "'Arial', monospace ",fontWeight:'bolder',fontSize:'35px' }}>
         <p><a href='https://github.com/Ermiyas9/LaptopRentalKiosk'style={{boxShadow:" 1px 5px 5px -3px #F71B9D",textDecoration: 'none'}}> Git Hub Repo </a></p>
-        <p><a href='https://wealthywave.Azurewebsites.net'style={{ boxShadow:" 1px 5px 5px -3px #F71B9D",textDecoration: 'none',}}>Laptop Rental Kiosk </a></p>
+        <p><a href='https://github.com/Ermiyas9'style={{ boxShadow:" 1px 5px 5px -3px #F71B9D",textDecoration: 'none',}}>Laptop Rental Kiosk </a></p>
         <p><Link to="/Projects" style={{ boxShadow:" 1px 5px 5px -3px #F71B9D",textDecoration: 'none',}}>More Of My Projects </Link></p>
       </div>
 

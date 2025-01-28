@@ -163,28 +163,28 @@ function ProjectBox({ name, icon, title, description, showTechStack, handleClick
 
     if (name === "1") {
         gitHubLink = "https://github.com/Ermiyas9/PersonalPortfolio";
-        websiteLink = "https://google.com";
+        websiteLink = "https://ermiyas9.github.io/reactapp";
     } else if (name === "2") {
         gitHubLink = "https://github.com/srose0040/WealthWave";
-        websiteLink = "https://google.com";
+        websiteLink = "https://wealthwave.azurewebsites.net/";
     } else if (name === "3") {
         gitHubLink = "https://github.com/Ermiyas9/NetworkApplicationAssignment4";
-        websiteLink = "https://google.com";
+        websiteLink = "https://github.com/Ermiyas9";
     } else if (name === "4") {
         gitHubLink = "https://github.com/Ermiyas9/AndroidTripPlannerAppB";
-        websiteLink = "https://google.com";
+        websiteLink = "https://github.com/Ermiyas9";
     } else if (name === "5") {
         gitHubLink = "https://github.com/Ermiyas9/Hoochamacallit";
-        websiteLink = "https://google.com";
+        websiteLink = "https://github.com/Ermiyas9";
     } 
     else if (name === "6") {
         gitHubLink = "https://github.com/Ermiyas9/FinalPizzaShop";
-        websiteLink = "https://google.com";
+        websiteLink = "https://github.com/Ermiyas9";
     } 
     
     else {
         gitHubLink = "https://github.com/Ermiyas9/LaptopRentalKiosk";
-        websiteLink = "https://google.com";
+        websiteLink = "https://github.com/Ermiyas9";
     }
 
     return (
