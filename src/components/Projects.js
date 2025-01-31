@@ -34,7 +34,7 @@ function ProjectsPage() {
 
 
     return (
-        <div>
+        <div className= "projects">
 
             <HeaderComponents 
                 hireMeIcon={hireMe} 
