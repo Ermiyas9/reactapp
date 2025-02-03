@@ -23,41 +23,6 @@ import "./HobbiesPage.css";
 // import { AlignHorizontalCenter } from '@mui/icons-material';
 
 function HomePage() {
-  // ScrollDownAnimation function defined within HomePage, this will be called when I want the scroll down letter to be displayed 
- 
-  /* const ScrollDownAnimation = () => {
-    // Split the phrase into individual letters
-    const letters = "|||||||||||||||||".split("");
-
-    return (
-      <span className="pageScroller">
-        {letters.map((letter, index) => (
-          <AnimatedOnScroll
-            // Use index as a key
-            key={index}
-            // Animation effect
-            animateIn="bounceInRight"
-            // Stagger each letter's animation
-            delay={index * 100} 
-            style={{
-              // vertically display
-              display: 'block',
-              // space between letters vertically
-              marginTop: '25px',
-              marginLeft: '500px',
-              color: "Black",
-              fontWeight: "Bold",
-              fontSize: "30px",
-              fontFamily: "Arial, monospace"
-            }}
-          >
-            {letter}
-          </AnimatedOnScroll>
-        ))}
-      </span>
-    );
-  };
-  */
 
   return (
     <div className="app-container">
